@@ -57,10 +57,16 @@ body {
 #list {
     list-style-type: none;
     padding: 0;
-    margin:0;
+    
 }
 
 #list li {
+    display: flex;
+    align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ccc;
+}
+
+#list li input[type="checkbox"] {
+    margin-right: 10px;
 }

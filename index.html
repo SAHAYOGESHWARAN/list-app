@@ -14,20 +14,19 @@
             <div id="title">My List App</div>
         </div>
         <div id="add-container">
-            <input type="text" id="add-input" placeholder="Enter an list">
+            <input type="text" id="add-input" placeholder="Enter an item">
             <button id="add-button">Add Item</button>
         </div>
         <div id="list-container">
             <ul id="list">
-
-
+                <!-- List items will be added here dynamically -->
+            </ul>
         </div>
     </div>
-    <template>
+    <template id="list-item-template">
         <li>
             <input type="checkbox">
-            <span>First Item</span>
-
+            <span></span>
         </li>
     </template>
     <script src="script.js"></script>
